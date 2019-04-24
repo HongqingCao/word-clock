@@ -1,6 +1,8 @@
 <template>
   <div class="set-com">
-    <div class="set-title">垂直位置:<span>0px</span></div>
+    <div class="set-title">
+      {{ $t("settingData.vertical.title") }} :<span>0px</span>
+    </div>
     <slider></slider>
   </div>
 </template>

@@ -1,6 +1,8 @@
 <template>
   <div class="set-com">
-    <div class="set-title">缩放大小:<span>0px</span></div>
+    <div class="set-title">
+      {{ $t("settingData.zoom.title") }} :<span>0px</span>
+    </div>
     <slider></slider>
   </div>
 </template>

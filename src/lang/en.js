@@ -206,8 +206,14 @@ export default {
         { name: "English", value: "en" }
       ]
     },
+    zoom: {
+      title: "zooming"
+    },
     level: {
-      title: "Horizontal Position"
+      title: "horizontal position "
+    },
+    vertical: {
+      title: "vertical position"
     }
   }
 };

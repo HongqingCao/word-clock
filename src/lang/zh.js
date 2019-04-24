@@ -196,8 +196,14 @@ export default {
         { name: "英文", value: "en" }
       ]
     },
+    zoom: {
+      title: "缩放大小"
+    },
     level: {
       title: "水平位置"
+    },
+    vertical: {
+      title: "垂直位置"
     }
   }
 };
